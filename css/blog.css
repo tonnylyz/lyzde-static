@@ -1,0 +1,28 @@
+body {
+    padding-top: 3.5rem;
+}
+
+.post-item .card-body {
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.post-item:hover {
+    text-decoration: none;
+}
+
+.post-item:hover .card-body {
+    color: black;
+    background-color: #f3f3f3;
+}
+
+.post-item:active .card-body {
+    color: black;
+    background-color: #e8e8e8;
+}
+
+.feather {
+    height: 18px;
+    width: 18px;
+    margin-bottom: -4px;
+}

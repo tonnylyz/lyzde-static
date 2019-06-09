@@ -1,0 +1,118 @@
+﻿body {
+    font-size: .875rem;
+}
+
+.feather {
+    height: 16px;
+    vertical-align: text-bottom;
+    width: 16px;
+}
+
+/*
+        * Sidebar
+        */
+
+.sidebar {
+    bottom: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 100; /* Behind the navbar */
+}
+
+.sidebar-sticky {
+    height: calc(100vh - 48px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 48px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.sidebar .nav-link {
+    color: #333;
+    font-weight: 500;
+}
+
+    .sidebar .nav-link .feather {
+        color: #999;
+        margin-right: 4px;
+    }
+
+    .sidebar .nav-link.active {
+        color: #007bff;
+    }
+
+        .sidebar .nav-link:hover .feather,
+        .sidebar .nav-link.active .feather {
+            color: inherit;
+        }
+
+.sidebar-heading {
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+/*
+        * Navbar
+        */
+
+.navbar-brand {
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+    font-size: 1rem;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+}
+
+.navbar .form-control {
+    border-radius: 0;
+    border-width: 0;
+    padding: .75rem 1rem;
+}
+
+.form-control-dark {
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+    color: #fff;
+}
+
+    .form-control-dark:focus {
+        border-color: transparent;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+    }
+
+/*
+        * Utilities
+        */
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.full-height {
+    max-height: calc(100vh - 70px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#article-editor {
+    height: calc(100vh - 230px);
+    resize: none;
+}
+
+#admin-article-list a > span.badge-danger {
+    display: none;
+    float: right;
+}
+
+#admin-article-list a.list-group-item-info > span.badge-danger {
+    display: inline;
+}
