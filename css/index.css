@@ -1,16 +1,55 @@
-body {
-    padding-top: 3.5rem;
-}
-#index-main {
+
+.index-main {
     height: 100vh;
     padding-top: calc(50vh - 130px);
+    text-align: center;
 }
-#home-menu .btn {
-    width: 80px;
+
+.index-main > h1 {
+    font-size: 4rem;
+    font-weight: lighter;
 }
-#scroll-down {
+
+.index-main > h4 {
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+.index-menu {
+    margin: 20px auto;
     display: block;
+    width: 240px;
+    height: 60px;
 }
-#scroll-down:hover {
+
+.index-menu > a {
+    width: 80px;
+    display: block;
+    padding: 8px;
+    float: left;
+    text-decoration: none;
+    color: black;
+}
+
+.index-menu > a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -16px;
+}
+
+.scroll > a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 26px;
+    border: 3px solid #333333;
+    border-radius: 50%;
+    color: black;
     text-decoration: none;
 }
