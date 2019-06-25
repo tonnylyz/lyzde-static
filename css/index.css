@@ -36,20 +36,13 @@
     text-decoration: underline;
 }
 
-.scroll {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    margin-left: -16px;
+.index-intro {
+    margin: 20px auto;
+    max-width: 60vw;
 }
 
-.scroll > a {
-    display: block;
-    width: 32px;
-    height: 32px;
-    line-height: 26px;
-    border: 3px solid #333333;
-    border-radius: 50%;
-    color: black;
-    text-decoration: none;
+.index-intro > h1 {
+    font-weight: normal;
+    margin: 20px;
+    text-align: center;
 }

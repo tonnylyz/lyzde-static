@@ -5,6 +5,39 @@
     box-sizing: border-box;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+pre {
+    display: block;
+    font-size: 0.875rem;
+    color: #333333;
+
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto;
+
+}
+
+code {
+    font-family: "Consolas", monospace;
+    font-size: 0.875rem;
+    color: #333333;
+    word-break: break-word;
+}
+
+
+.tag {
+    background-color: #666666;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 0.625rem;
+}
+
 .navbar {
     position: fixed;
     height: 48px;

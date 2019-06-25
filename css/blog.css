@@ -1,28 +1,27 @@
-body {
-    padding-top: 3.5rem;
-}
-
-.post-item .card-body {
+.blog-item {
     color: black;
-    transition: background-color 0.2s ease-in-out;
+    text-decoration: none;
+    display: block;
+    border: 1px #CCC solid;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
 }
 
-.post-item:hover {
+.blog-item:hover {
     text-decoration: none;
 }
 
-.post-item:hover .card-body {
+.blog-item:hover {
     color: black;
     background-color: #f3f3f3;
 }
 
-.post-item:active .card-body {
+.blog-item:active {
     color: black;
     background-color: #e8e8e8;
 }
 
-.feather {
-    height: 18px;
-    width: 18px;
-    margin-bottom: -4px;
+.blog-list-container {
+    padding-top: 60px;
 }
