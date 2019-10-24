@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 
@@ -80,7 +82,7 @@ code {
 
 .container {
     margin: 0 auto;
-    width: 80vw;
+    width: 80%;
 }
 
 hr {

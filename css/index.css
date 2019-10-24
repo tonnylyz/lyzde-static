@@ -1,48 +1,111 @@
-
 .index-main {
-    height: 100vh;
-    padding-top: calc(50vh - 130px);
-    text-align: center;
+    padding-top: 60px;
 }
 
-.index-main > h1 {
-    font-size: 4rem;
-    font-weight: lighter;
-}
-
-.index-main > h4 {
-    font-size: 1.7rem;
-    font-weight: normal;
-}
-
-.index-menu {
-    margin: 20px auto;
-    display: block;
-    width: 240px;
-    height: 60px;
-}
-
-.index-menu > a {
-    width: 80px;
-    display: block;
-    padding: 8px;
+.index-side {
+    width: 30%;
     float: left;
-    text-decoration: none;
-    color: black;
 }
 
-.index-menu > a:hover {
-    font-weight: bolder;
-    text-decoration: underline;
-}
+.full-name {
+    height: 100px;
+    line-height: 40px;
+    padding: 56px 0 4px 5px;
 
-.index-intro {
-    margin: 20px auto;
-    max-width: 60vw;
-}
-
-.index-intro > h1 {
+    font-size: 1.5rem;
     font-weight: normal;
-    margin: 20px;
-    text-align: center;
+
+
+    border-left: #1a485d solid 6px;
+    margin: 20px 0 20px -6px;
+
+    color: #12313f;
+
+}
+
+.uni-name {
+    margin-top: 0!important;
+}
+
+.section-title {
+    color: #276d8a;
+    font-size: 1.3rem;
+    margin: 40px 0 10px 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+dl {
+    margin-top: 10px;
+}
+
+dt {
+    font-weight: bold;
+    display: inline;
+}
+
+dd {
+    display: inline;
+}
+
+.education-title {
+    font-weight: bold;
+}
+
+.education-major {
+    margin: 0;
+}
+
+.education-time {
+    font-style: italic;
+    margin: 0 0 15px 0;
+}
+
+.skill-title {
+    font-weight: bold;
+}
+
+.index-content {
+    width: 70%;
+    float: left;
+}
+
+.text {
+    line-height: 30px;
+}
+
+.experience-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.experience-list {
+    margin-left: 40px;
+}
+
+.experience-list > li {
+    margin: 20px 0;
+}
+
+.experience-time {
+    font-style: italic;
+    color: #276d8a;
+}
+
+.thesis-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.project-list {
+    margin-left: 40px;
+}
+
+.project-list > li {
+    margin: 20px 0;
 }
